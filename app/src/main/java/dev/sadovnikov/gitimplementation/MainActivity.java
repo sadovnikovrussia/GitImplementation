@@ -21,8 +21,13 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: " + helloWrold.secret);
 
         // Изменения, после которых проект можно релизить в мастер
+
+        // Теперь мы в новой ветке "new_feature", где будем разрабатывать новый функционал
     }
 
+    void newFunction(){
+        Log.d(TAG, "newFunction: " + "Сделала что-то крутое");
+    }
     @Override
     protected void onStop() {
         super.onStop();
