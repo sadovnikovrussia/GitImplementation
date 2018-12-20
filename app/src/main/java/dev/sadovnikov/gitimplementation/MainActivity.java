@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         MyApplication myApplication = new MyApplication();
         HelloWrold helloWrold = MyApplication.from(this).getHelloWrold();
         Log.d(TAG, "onCreate: " + helloWrold.secret);
+
+        // Изменения, после которых проект можно релизить в мастер
     }
 
     @Override
